@@ -1,0 +1,19 @@
+{
+  "extends": ["standard", "prettier", "plugin:import/recommended"],
+  "plugins": ["import", "node", "promise", "standard", "prettier"],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "arrowParens": "always",
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ]
+  }
+}
