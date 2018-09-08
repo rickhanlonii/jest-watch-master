@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://facebook.github.io/jest/">
-    <img width="150" height="150" vspace="" hspace="25" src="https://cdn.worldvectorlogo.com/logos/jest.svg">
+    <img width="150" height="150" vspace="" hspace="25" src="http://dp.hanlon.io/16694b99c896/jest.png">
   </a>
   <h1>jest-watch-master</h1>
   <p>Jest watch plugin for checking changes since master</p>
