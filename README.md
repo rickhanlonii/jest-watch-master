@@ -1,9 +1,13 @@
-# Jest Watch Master Plugin
+<div align="center">
+  <a href="https://facebook.github.io/jest/">
+    <img width="150" height="150" vspace="" hspace="25" src="https://cdn.worldvectorlogo.com/logos/jest.svg">
+  </a>
+  <h1>jest-watch-master</h1>
+  <p>Jest watch plugin for checking changes since master</p>
+  <p><strong>WIP: Requires Jest changes</strong></p>
+</div>
 
-**WIP: Requires Jest changes**
-Jest watch plugin for checking changes since master
-
-### Install
+<!-- ### Install
 
 Install `jest` and `jest-watch-master`
 
@@ -22,7 +26,6 @@ In your `package.json`:
 ```json
 {
   "jest": {
-    // ...
     "watchPlugins": ["jest-watch-master"]
   }
 }
@@ -35,4 +38,4 @@ module.exports = {
   // ...
   watchPlugins: ['jest-watch-master'],
 }
-```
+``` -->
