@@ -7,7 +7,7 @@
   <p><strong>WIP: Requires Jest changes</strong></p>
 </div>
 
-<!-- ### Install
+### Install
 
 Install `jest` and `jest-watch-master`
 
@@ -38,4 +38,4 @@ module.exports = {
   // ...
   watchPlugins: ['jest-watch-master'],
 }
-``` -->
+```

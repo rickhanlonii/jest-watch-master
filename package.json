@@ -1,6 +1,6 @@
 {
   "name": "jest-watch-master",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Rick Hanlon II <rickhanlonii@gmail.com> (https://rickhanlon.codes/)",
   "description": "Jest watch plugin for checking changes since master",
