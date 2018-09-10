@@ -5,6 +5,8 @@
   <h1>jest-watch-master</h1>
   <p>Jest watch plugin for checking changes since master</p>
   <p><strong>Requires Jest >= 23.6.0</strong></p>
+  <hr />
+  <img src="http://dp.hanlon.io/fadbfc9115f0/Image%2525202018-09-10%252520at%25252011.06.40%252520AM.png">
 </div>
 
 ### Install
