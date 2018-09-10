@@ -1,6 +1,6 @@
 {
   "name": "jest-watch-master",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "author": "Rick Hanlon II <rickhanlonii@gmail.com> (https://rickhanlon.codes/)",
   "description": "Jest watch plugin for checking changes since master",
@@ -37,8 +37,8 @@
     "prettier": "^1.13.5"
   },
   "peerDependencies": {
-    "jest": ">= 23.5.0",
-    "jest-validate": ">= 23.5.0"
+    "jest": ">= 23.6.0",
+    "jest-validate": ">= 23.6.0"
   },
   "dependencies": {
     "chalk": "^2.0.0"

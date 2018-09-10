@@ -4,7 +4,7 @@
   </a>
   <h1>jest-watch-master</h1>
   <p>Jest watch plugin for checking changes since master</p>
-  <p><strong>WIP: Requires Jest changes</strong></p>
+  <p><strong>Requires Jest >= 23.6.0</strong></p>
 </div>
 
 ### Install
