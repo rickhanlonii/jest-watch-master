@@ -10,7 +10,7 @@
   },
   "scripts": {
     "lint": "eslint src",
-    "prettier": "prettier --write"
+    "prettier": "prettier --write '**/**.js' '**/**.md'"
   },
   "keywords": [
     "jest",

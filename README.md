@@ -38,5 +38,19 @@ Or in `jest.config.js`
 module.exports = {
   // ...
   watchPlugins: ['jest-watch-master'],
+};
+```
+
+### Options
+
+#### `branch: string`
+
+To specify a branch other than master, use the `branch` setting:
+
+```json
+{
+  "jest": {
+    "watchPlugins": [["jest-watch-master", { "branch": "feature" }]]
+  }
 }
 ```
