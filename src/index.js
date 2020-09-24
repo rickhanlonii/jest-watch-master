@@ -1,6 +1,8 @@
 class JestWatchMasterPlugin {
   constructor({ config } = {}) {
     this.branch = 'master';
+    this.enabled = false;
+
     if (config && config.branch) {
       this.branch = config.branch;
     }
@@ -9,12 +11,14 @@ class JestWatchMasterPlugin {
   getUsageInfo() {
     return {
       key: 'm',
-      prompt: `test changes since ${this.branch}`,
+      prompt: `test changes since ${this.enabled ? 'last commit' : this.branch}`,
     };
   }
 
   run(globalConfig, updateConfigAndRun) {
-    updateConfigAndRun({ mode: 'watch', changedSince: this.branch });
+    this.enabled = !this.enabled;
+
+    updateConfigAndRun({ mode: 'watch', changedSince: (this.enabled ? this.branch : null)});
     return Promise.resolve();
   }
 }
